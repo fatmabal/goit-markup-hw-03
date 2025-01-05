@@ -7,6 +7,10 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
+img {
+    display: block;
+}
+
 .container{
     display: flex;
     width: 1158px;
@@ -77,8 +81,9 @@ span {
     color: #434455;
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
-.list-li{
+header .list-li{
     padding: 24px 0;
 
 }
@@ -295,8 +300,16 @@ p {
 }
 
 .menu-logo-footer{
+font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
+    text-decoration: none; 
 }
 
 .footer-p {
